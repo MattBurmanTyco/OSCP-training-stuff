@@ -1,4 +1,6 @@
 # OSCP-training-stuff
+https://gr0sabi.github.io/security/oscp-insights-best-practices-resources/#final-thoughts
+
 0x06 — Resources
 
 #All in one References
