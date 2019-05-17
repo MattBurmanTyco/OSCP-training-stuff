@@ -60,3 +60,10 @@ https://www.hackthebox.eu/
 https://www.vulnhub.com/
 https://exploit-exercises.com/
 https://shellterlabs.com/en/
+
+
+When accessing the system it was either ran as system or if it wasn't I then went through the G0tm1lk guide or the fuzzy guide. G01m1lk it seemed I always found a file with the wrong permissions (like /etc/passwd) or I'd find a SUID bit set for pkexec, or a /usr/local/ file in there which I'd never seen before and that always ended up being the flaw. If that wasn't one of them I'd look at ps aux and check for programs running higher PID numbers that didn't have [ ] around them and look for things I never saw on the other boxes, check their version then check searchsploit for it.
+
+
+
+For Windows it was a system exploit, or a flaw I found from accesschk.exe, or it just put me in as root access.
